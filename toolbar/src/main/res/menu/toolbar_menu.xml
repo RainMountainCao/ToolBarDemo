@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbardemo.MainActivity">
+    <item android:id="@+id/action_settings1"
+        android:title="item1"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_settings2"
+        android:title="item2"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings3"
+        android:title="item3"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings4"
+        android:title="item4"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never" />
+</menu>
